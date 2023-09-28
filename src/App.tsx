@@ -113,7 +113,7 @@ function App() {
         }}
       >
         {grid.map((rows, i) =>
-          rows.map((col, k) => {
+          rows.map((_col, k) => {
             return (
               <div
                 key={`${i}-${k}`}
