@@ -1,0 +1,13 @@
+.game-container {
+  border: 6px solid black;
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
